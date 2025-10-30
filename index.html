@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CricketPro — Your Game, Your Stats</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; background: #f9fafb; color: #333; }
+
+    header {
+      background: #007f5f;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 { font-size: 24px; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+    nav a:hover { text-decoration: underline; }
+
+    .hero {
+      background: linear-gradient(to right, #007f5f, #2b9348);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h2 { font-size: 40px; margin-bottom: 20px; }
+    .hero p { font-size: 18px; margin-bottom: 30px; }
+    .hero button {
+      background: white;
+      color: #007f5f;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .hero button:hover { background: #e8f5e9; }
+
+    .features {
+      padding: 60px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .feature {
+      background: white;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .feature h3 { color: #007f5f; margin-bottom: 10px; }
+
+    .cta {
+      background: #2b9348;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .cta h2 { margin-bottom: 20px; }
+    .cta button {
+      background: white;
+      color: #2b9348;
+      border: none;
+      padding: 12px 28px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .cta button:hover { background: #eafbe7; }
+
+    footer {
+      background: #004b23;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CricketPro</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Level Up Your Cricket Game</h2>
+    <p>Track your stats, analyze your performance, and become a better player with CricketPro.</p>
+    <button>Get Started</button>
+  </section>
+
+  <section id="features" class="features">
+    <div class="feature">
+      <h3>📊 Player Stats</h3>
+      <p>Monitor runs, wickets, and match history in one place.</p>
+    </div>
+    <div class="feature">
+      <h3>🏏 Team Management</h3>
+      <p>Create teams, manage players, and track performance easily.</p>
+    </div>
+    <div class="feature">
+      <h3>🌎 Global Rankings</h3>
+      <p>Compare your stats with players around the world.</p>
+    </div>
+  </section>
+
+  <section id="pricing" class="cta">
+    <h2>Start Your Free Trial Today!</h2>
+    <p>Join thousands of players improving their cricket game.</p>
+    <button>Sign Up Now</button>
+  </section>
+
+  <footer>
+    &copy; 2025 CricketPro. All rights reserved.
+  </footer>
+</body>
+</html>
